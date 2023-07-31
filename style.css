@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a {
+    display: inline-block;
+}
+.nav {
+    padding: 15px 40px;
+    max-width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+}
+.link {
+    font-size: 19px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    margin: 0 12px;
+}
+.action {
+    border: none;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+.home {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 100px 130px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-content {
+    width: 50%;
+}
+.home-img {
+    width: 46%;
+    border-radius: 20px;
+}
+.lead {
+    margin: 10px 0 15px;
+    line-height: 1.6;
+}
+.wrap {
+    display: flex;
+    align-items: center;
+}
+.action2 {
+    margin-right: 15px;
+}
+@media(max-width:1000px){
+    .home {
+        padding: 60px 20px;
+    }
+}
+@media(max-width:770px){
+    .home-content {
+        width: 100%;
+    }
+    .home-img {
+        width: 500px;
+        order: -1;
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:700px){
+    .links {
+        width: 100%;
+        margin: 15px 0;
+    }
+    .nav {
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media(max-width:400px){
+    .home {
+        padding: 30px 15px;
+    }
+    .txt {
+        width: 100%;
+    }
+    .wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .action2 {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .home-content {
+        text-align: center;
+    }
+}
